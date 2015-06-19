@@ -16,6 +16,9 @@
     <Filter Include="MyLib">
       <UniqueIdentifier>{0553dd80-853d-4cc1-939f-f032bb2dffff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Line">
+      <UniqueIdentifier>{fdbbfbbe-0dfb-4bee-9b95-86f7eb255cc0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\LineApp.cpp">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="..\src\MyLib\mouse.cpp">
       <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Line\line.cpp">
+      <Filter>Line</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="..\src\MyLib\window_size.h">
       <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Line\line.h">
+      <Filter>Line</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

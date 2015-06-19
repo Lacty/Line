@@ -108,12 +108,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\LineApp.cpp" />
+    <ClCompile Include="..\src\Line\line.cpp" />
     <ClCompile Include="..\src\MyLib\graph.cpp" />
     <ClCompile Include="..\src\MyLib\key.cpp" />
     <ClCompile Include="..\src\MyLib\mouse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />
+    <ClInclude Include="..\src\Line\line.h" />
     <ClInclude Include="..\src\MyLib\ci_app.h" />
     <ClInclude Include="..\src\MyLib\graph.h" />
     <ClInclude Include="..\src\MyLib\key.h" />
